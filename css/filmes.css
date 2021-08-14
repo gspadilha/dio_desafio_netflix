@@ -1,0 +1,26 @@
+.filme-principal {
+    font-size: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%);
+    background-image: url('/assets/images/capa-house.jpg');
+    background-size: cover;
+    height: 30rem;
+    border: 1px solid var(--red);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.filme-principal .titulo {
+    font-size: 2.5rem;
+    margin-top: 15%;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 5rem;
+    margin-top: 0.75rem;
+}
+
+.box-filme {
+    display: block;
+}

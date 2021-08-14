@@ -1,0 +1,53 @@
+:root {
+    --red: #e50914;
+    --black: #141414;
+    --gray: #fefefe;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+    color: var(--gray);
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .3s ease all;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Arial Black', 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 0.75rem;
+}
+
+header nav a:hover {
+    color: #fff;
+}
